@@ -19,16 +19,5 @@ config.action_view.cache_template_loading            = true
 # config.action_mailer.raise_delivery_errors = false
 
 config.action_mailer.delivery_method = :sendmail
-
 GOOGLE_MAP_API_KEY = 'ABQIAAAA5DmfAcONGodqQq2WJjcL2xRVmJNk76XDhrH9yChLo28oBQNqVhTI1FI8bDPEtkxfWbI5NT2tPk5DqA'
-
-HOST = "bostonrb.org"
-
-config.action_mailer.delivery_method = :smtp
-config.action_mailer.smtp_settings = {
-  :domain => "bostonrb.org",
-  :perform_deliveries => true,
-  :address => 'smtp.ey01.engineyard.com',
-  :port => 25
-}
-
+HOST = "techvalleyrb.org"

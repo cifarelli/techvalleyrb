@@ -8,7 +8,7 @@ metrics
 *~
 *.swo
 .DS_Store
-
+.rvmrc
 # ignore native bits
 # generated sort of by: git ls-files --others --exclude-standard vendor/gems
 vendor/gems/RedCloth-4.2.2/ext/redcloth_scan/Makefile
@@ -40,4 +40,11 @@ vendor/gems/taf2-curb-0.2.8.0/ext/curb_postfield.o
 vendor/gems/taf2-curb-0.2.8.0/ext/mkmf.log
 vendor/gems/taf2-curb-0.2.8.0/lib/curb_core.bundle
 vendor/plugins/autochronic/spec/tmp/.git_sucks
-
+vendor/gems/RedCloth-4.2.2/ext/redcloth_scan/redcloth_scan.so
+vendor/gems/RedCloth-4.2.2/lib/redcloth_scan.so
+vendor/gems/json-1.1.7/bin/generator.so
+vendor/gems/json-1.1.7/bin/parser.so
+vendor/gems/json-1.1.7/ext/json/ext/generator/generator.so
+vendor/gems/json-1.1.7/ext/json/ext/parser/parser.so
+vendor/gems/taf2-curb-0.2.8.0/ext/curb_core.so
+vendor/gems/taf2-curb-0.2.8.0/lib/curb_core.so

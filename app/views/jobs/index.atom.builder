@@ -1,6 +1,6 @@
 atom_feed :schema_date => 2009 do |feed|
-  feed.title("Boston.rb Jobs")
-  feed.subtitle("Jobs for Boston Rubyists")
+  feed.title("Techvalley.rb Jobs")
+  feed.subtitle("Jobs for TechValley Rubyists")
   feed.updated(@jobs.first.updated_at) if @jobs.any?
 
   @jobs.each do |job|
@@ -12,7 +12,7 @@ atom_feed :schema_date => 2009 do |feed|
       end
       
       entry.author do |author|
-        author.name("Boston Ruby Group")
+        author.name("TechValley Ruby Brigade")
       end
     end
   end

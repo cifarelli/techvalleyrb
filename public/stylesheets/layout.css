@@ -105,7 +105,7 @@ body {
   display: block;
 }
 
-#boston_rb {
+#techvalley_rb {
   margin-bottom: 2.1em;
 }
 
@@ -160,7 +160,7 @@ body {
   color: #FDB;
 }
 
-#boston_rb p a {
+#techvalley_rb p a {
   color: #fff;
   background: #400;
   font-style: italic;
@@ -170,11 +170,11 @@ body {
   padding: .75em .75em .75em 0;
 }
 
-#boston_rb p a:hover {
+#techvalley_rb p a:hover {
   background: #500;
 }
 
-#boston_rb p a strong {
+#techvalley_rb p a strong {
   font-style: normal;
   font-weight: normal;
   margin-right: .5em;
@@ -183,7 +183,7 @@ body {
   color: #FC9;
 }
 
-#boston_rb p a:hover strong {
+#techvalley_rb p a:hover strong {
   background: #290000;
 }
 
@@ -232,15 +232,15 @@ body {
   font-variant: small-caps;
 }
 
-#boston_rb p.navigation {
+#techvalley_rb p.navigation {
 	float: left;
 }
 
-#boston_rb p.authentication {
+#techvalley_rb p.authentication {
 	float: right;
 }
 
-#boston_rb p.authentication a {
+#techvalley_rb p.authentication a {
 	padding: .75em;
 }
 
