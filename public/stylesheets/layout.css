@@ -43,6 +43,12 @@
   width: 72em;
 }
 
+.header{
+   position: relative;
+   height: 193px;
+   background: #666 url(../images/header.jpg) repeat-x top left;
+}
+
 /* testing framework */
 .test {
   -moz-opacity: .7;
@@ -52,7 +58,7 @@
 .test h1 {
   background: #0F0;
 }
-.test h2 {
+ .test h2 {
   background: #0C0;
 }
 .test h3 {
@@ -73,8 +79,6 @@
 body {
   margin: 2.1em 0 0 0;
   background: url(../images/red.gif);
-  color: #FED;
-  color: #BDF;
   color: #eee !important;
 }
 
@@ -253,13 +257,13 @@ body {
   list-style-type: none;
 }
 
-#footer ul li.engineyard a {
-  width: 82px;
-  height: 38px;
+#footer ul li.inoc a {
+  width: 150px;
+  height: 54px;
   text-indent: -9999px;
   display: inline-block;
   text-decoration: none;
-  background: url(/images/engineyard.png) 0 0 no-repeat;
+  background: url(/images/inocs1.png) 0 0 no-repeat;
 }
 
 #companies .crud {
