@@ -17,6 +17,7 @@ vendor/gems/RedCloth-4.2.2/ext/redcloth_scan/redcloth_inline.o
 vendor/gems/RedCloth-4.2.2/ext/redcloth_scan/redcloth_scan.bundle
 vendor/gems/RedCloth-4.2.2/ext/redcloth_scan/redcloth_scan.o
 vendor/gems/RedCloth-4.2.2/lib/redcloth_scan.bundle
+vendor/gems/json-1.1.7/bin/*.bundle
 vendor/gems/json-1.1.7/ext/json/ext/generator.bundle
 vendor/gems/json-1.1.7/ext/json/ext/generator/Makefile
 vendor/gems/json-1.1.7/ext/json/ext/generator/generator.bundle
