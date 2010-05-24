@@ -1,0 +1,135 @@
+/*
+  These values are sensible defaults. You are encouraged to define your own values.
+
+  Formula:
+  base line-height / font-size = element line-height
+
+  Example:
+  base line-height: 1.8 (18px)
+
+  1.8 / 7.2em = .25
+
+  2.1 lineheight
+
+*/
+
+body {
+  font-size: .625em; /* 62.5% of browser default (16px) is 10px */
+  font-family: verdana, arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+}
+
+h1 {
+  text-align: center;
+  margin: -6px .5em .5em 1px;
+  font: 700 51px "trebuchet ms", serif;
+  letter-spacing: -3px;
+  text-transform: lowercase;  
+}
+
+h2 {
+  font-size: 3.5em;
+  line-height: 1.2;
+  margin: 0 .6em .6em 0;
+}
+
+h3 {
+  font-size: 2.8em;
+  line-height: .75em;
+  margin: 0 .75em .75em 0
+}
+
+h3.center {
+  margin-right: 0;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0 1.5em 1.5em 1em;
+}
+
+ul,
+dl,
+th,
+td,
+legend {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+
+input {
+  vertical-align: middle;
+}
+
+/* custom typography */
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+#flash_notice, #flash_success, #flash_failure {
+  font-size: 1.7em;
+}
+
+h3, h3 a {
+}
+
+#flash {
+}
+
+p, li {
+}
+
+#techvalley_rb p.navigation a, #techvalley_rb p.authentication a {
+  font-size: 1.3em;
+}
+#projects a,
+#jobs a,
+#presentations a {
+}
+
+a,
+#jobs .crud a,
+#jobs .more a,
+#projects .crud a,
+#projects .more a,
+#presentations .crud a,
+#presentations .more a,
+#companies .crud a,
+#apps .crud a {
+  color: #9FF3FF;
+}
+
+a:hover,
+#jobs .crud a:hover,
+#projects .crud a:hover,
+#presentations .crud a:hover,
+#companies .crud a:hover,
+#apps .crud a {
+}
+
+#boston_rb p {
+}
+
+#about ul, #about li {
+}
+
+p.date {
+}
+
+p.date span {
+}

@@ -1,0 +1,309 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+* html .clearfix { height: 1%; }
+*:first-child+html .clearfix { min-height: 1px; }
+
+.half,
+.quarter,
+.three_quarters {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* grid 960 { 480 240 120 60 30 15 5 } */
+.grid_960 {
+  width: 780px;
+}
+
+/*.grid_960 */ 
+.grid_960 .row{
+  background-color: #555;
+  padding: 15px;
+  margin-bottom: 2.1em;
+  color: #fff;
+  width: 750px;
+  margin: 0 auto 2.5em auto;
+}
+
+.grid_960 .half {
+  width: 48em;
+}
+
+.grid_960 .quarter {
+  width: 24em;
+}
+
+.grid_960 .three_quarters {
+  width: 72em;
+}
+
+.header{
+   position: relative;
+   height: 193px;
+}
+
+/* testing framework */
+.test {
+  -moz-opacity: .7;
+}
+
+/* custom layout */
+
+body {
+  background: #666 url(/images/tvrb/bg.png) repeat-x top left;
+  margin: 0;
+}
+
+h1 {
+  width: 800px;
+  text-indent: -40px;
+  padding: 15px 0 120px 0;
+  margin: 0 0 0.4em 0;
+  background: transparent url(/images/tvrb/skyline.png) no-repeat 50% 0;
+}
+h1 a {
+  color: #fff;
+}
+
+#other_events, #companies, #authentication {
+  padding: 2.1em 0;
+}
+
+#apps {
+  padding: 0 0 2em 0;
+  position: relative;
+}
+
+#other_events, #apps, #companies, #twitter_blogs .row {
+  background-color: #666;
+  margin-bottom: 8em;
+}
+#twitter_blogs .half {
+  float: left;
+  width: 375px;
+  margin: 0;
+}
+#twitter_blogs .half h3 {
+  text-align: center;
+}
+
+#other_events h3, #apps h3, #companies h3, #twitter_blogs h3, #about h3 {
+}
+#other_events p, #apps p, #companies p {
+  margin: 0;
+}
+
+.collage {
+  height: 16em;
+}
+
+.collage img {
+  float: left;
+  display: block;
+}
+
+#techvalley_rb {
+}
+#techvalley_rb .row, {
+  background-color: transparent;
+}
+#techvalley_rb .row {
+  background-color: transparent;
+  padding: 0;
+  width: 800px;
+  margin: 0 auto -3em auto;
+  text-transform: lowercase;
+}
+
+#presentations {
+  padding: 2.1em 0;
+}
+
+#jobs {
+  padding: 2.1em 0 0 0;
+}
+
+#events,
+#projects,
+#people,
+#presentations,
+#jobs,
+#twitter_blogs {
+}
+
+#new,
+#edit,
+#show,
+#events,
+#sponsors {
+}
+
+.ribbon {
+  padding: 2.1em 0;
+}
+
+#projects {
+}
+
+#people {
+}
+
+#about {
+  background-color: #666;
+}
+
+#twitter_blogs {
+}
+#twitter_blogs p,
+#twitter_blogs li {
+}
+
+#techvalley_rb p a {
+  margin-right: .75em;
+  padding: .75em .75em .75em 0;
+}
+
+#techvalley_rb p a:hover {
+}
+
+#techvalley_rb p a strong {
+  padding: .5em;
+  display: none;
+}
+
+#techvalley_rb p a:hover strong {
+}
+
+.crud {
+  display: block;
+  float: right;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+#show ul.details {
+	margin: 0;
+	padding: 0;
+}
+
+#show ul.details li {
+  clear: both;
+  padding: .75em;
+  list-style-type: none;
+  border-bottom: 1px solid #024;
+}
+
+#show ul.details li.last {
+  border-bottom: none;
+}
+
+#show ul.details li.last p {
+	font-size: 1em;
+}
+
+#show ul.details .detail {
+	float: left;
+  width: 90%;
+}
+
+#show ul.details .label {
+	float: right;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+#techvalley_rb p.navigation {
+  margin: -10px 0 0 0;
+	float: left;
+}
+#techvalley_rb p.navigation a, #techvalley_rb p.authentication a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+#techvalley_rb p.navigation a:hover, #techvalley_rb p.authentication a:hover {
+  color: #9FF3FF;
+  border-bottom: 1px solid #9FF3FF;
+}
+
+#techvalley_rb p.authentication {
+  margin: -10px 0 0 0;
+	float: right;
+	text-align: right;
+}
+
+#footer {
+  background: #000 url(/images/tvrb/footerbg.png) repeat-x top left;
+  padding: 50px 0 20px 0;
+}
+
+#footer ul {
+  padding: 0;
+  margin: 0;
+	text-align: center;
+  list-style-type: none;
+}
+
+#footer ul li.inoc a {
+  width: 150px;
+  height: 54px;
+  text-indent: -9999px;
+  display: inline-block;
+  text-decoration: none;
+  background: url(/images/inocs1.png) 0 0 no-repeat;
+}
+
+#companies .crud {
+	float: none;
+  position: absolute;
+  top: 1.8em;
+  right:2em;
+}
+
+#apps .crud {
+	float: none;
+  position: absolute;
+  top: 0;
+  right:2em;	
+}
+
+
+#flash {
+  background-color: transparent;
+}
+#flash_notice, #flash_failure, #flash_success {
+  margin-top: 2em;
+  background-color: #aaa;
+  color: #000;
+  padding: 10px;
+}
+#flash_success {
+  border: 10px solid darkgreen;
+}
+
+#flash_notice {
+  border: 10px solid #555;
+}
+
+#flash_failure {
+  border: 10px solid darkred;
+}
+
