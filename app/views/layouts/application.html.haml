@@ -2,7 +2,7 @@
 %html
   %head
     %title techvalley.rb
-    = stylesheet_link_tag 'screen', 'under_construction', :media => 'screen'
+    = stylesheet_link_tag 'tvrb/screen', 'under_construction', :media => 'screen'
     = stylesheet_link_tag 'custom-theme/jquery-ui-1.7.2.custom.css', :media => 'screen'
     %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Upcoming techvalley.rb Events', :href => events_url(:format => :atom)}
     %link{:rel => 'alternate', :type => 'application/atom+xml', :title => 'Recent Job Postings on techvalley.rb', :href => jobs_url(:format => :atom)}
@@ -11,5 +11,5 @@
       = render :partial => '/shared/header'
       = partial 'shared/flashes'
       = yield
-      = partial 'shared/footer'
+    = partial 'shared/footer'
     = render :partial => '/shared/javascripts'
