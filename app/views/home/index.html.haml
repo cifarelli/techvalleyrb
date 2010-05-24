@@ -52,7 +52,7 @@
 
 #projects
   .row
-    %h2= link_to 'Open Source Projects', projects_path
+    %h2 Open Source Projects
     - if @featured_project
       .half>
         %h3= link_to @featured_project.name, project_path(@featured_project)
@@ -74,7 +74,7 @@
   .row
     .crud
       %p= link_to 'New job', new_job_path
-    %h2= link_to 'Jobs', jobs_path
+    %h2 Jobs
     - if @featured_job
       .half
         %h3= link_to @featured_job.title, @featured_job
@@ -97,7 +97,7 @@
   .row
     .crud
       %p= link_to 'New presentation', new_presentation_path
-    %h2= link_to 'Presentations', presentations_path
+    %h2 Presentations
     - if @featured_presentation
       .half>
         %h3= link_to @featured_presentation.title, presentation_path(@featured_presentation)
