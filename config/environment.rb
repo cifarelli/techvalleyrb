@@ -1,4 +1,4 @@
-RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 require File.join(File.dirname(__FILE__), 'boot')
 
@@ -13,7 +13,7 @@ Rails::Initializer.run do |config|
 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_techvalley_rb_session',
+    :key => '_techvalley_rb_session',
     :secret      => 'f4b59e36768ec8c75c4c4fd636488ad97ea0878b2473dd3ebcf5990bdcd13febdc5f3a56ae5e0a534fe49acfa59ddfdeaf800531cfe3a75a129d5fa39206c0cf'
   }
 
@@ -53,7 +53,8 @@ Rails::Initializer.run do |config|
     :version => "0.8.5"
   config.gem "dancroak-le-git",
     :lib     => "le_git",
-    :version => "0.0.5"
+    :version => "0.0.5",
+    :source  => "http://gems.github.com"
   config.gem 'taf2-curb', :lib => 'curb', :version => '0.2.8.0' # feezirra would normally depend on this, but doesn't depend a working it works with
   config.gem "technicalpickles-feedra",
     :lib     => "feedra",
